@@ -24,3 +24,16 @@ class lia :public seseorang
         cout << "Pesan dari lia" << endl;
         }
 };
+
+int main() {
+    seseorang* obyek;
+    joko a;
+    lia b;
+
+    obyek = &a;
+    obyek->pesan();
+    // a.seseorang::pesan();
+    // b.seseorang::pesam();
+    return 0;
+
+}
